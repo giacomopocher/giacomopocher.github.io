@@ -1,88 +1,31 @@
-/* Import Source Serif Pro (same as Sahil Chinoy's website) */
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Economist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#">Research</a> / 
+            <a href="#">CV</a> / 
+            <a href="#">Articles</a> / 
+            <a href="#">Photos</a>
+        </nav>
 
-/* General styles */
-body {
-    font-family: "Source Serif Pro", serif;
-    font-size: 20px;
-    background-color: #f7f7f7;
-    color: #111;
-    margin: 0;
-    padding: 40px;
-    line-height: 1.7;
-}
+        <img src="profile.jpg" alt="Your Name" class="profile-pic">
 
-/* Container */
-.container {
-    max-width: 700px;
-    margin: 0 auto;
-}
+        <p>Welcome! I am a Ph.D. candidate in economics at [Your University].</p>
 
-/* Header */
-header {
-    margin-bottom: 50px;
-}
+        <p><strong>I am on the [Job Market Year] job market.</strong> 
+        My <a href="#">research</a> focuses on [your research area].</p>
 
-h1 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
+        <p>Previously, I was [your past position]. Before that, I studied [your degrees] at [your university].</p>
 
-p {
-    font-size: 20px;
-}
-
-/* Navigation */
-nav {
-    margin-top: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #111;
-    font-weight: 400;
-    margin-right: 15px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Sections */
-section {
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-h2 {
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-/* Links */
-a {
-    color: #111;
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    body {
-        font-size: 18px;
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 34px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-}
+        <p>My email address is <a href="mailto:youremail@example.com">youremail@example.com</a>. I use [your pronouns] pronouns.</p>
+    </div>
+</body>
+</html>
