@@ -1,31 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Economist</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Your Name</h1>
-        <nav>
-            <a href="#">Research</a> / 
-            <a href="#">CV</a> / 
-            <a href="#">Articles</a> / 
-            <a href="#">Photos</a>
-        </nav>
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap');
 
-        <img src="profile.jpg" alt="Your Name" class="profile-pic">
+/* General styles */
+body {
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #111;
+    text-align: center;
+    margin: 50px;
+    line-height: 1.6;
+}
 
-        <p>Welcome! I am a Ph.D. candidate in economics at [Your University].</p>
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+}
 
-        <p><strong>I am on the [Job Market Year] job market.</strong> 
-        My <a href="#">research</a> focuses on [your research area].</p>
+/* Name (Header) */
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
 
-        <p>Previously, I was [your past position]. Before that, I studied [your degrees] at [your university].</p>
+/* Navigation */
+nav {
+    margin-bottom: 30px;
+}
 
-        <p>My email address is <a href="mailto:youremail@example.com">youremail@example.com</a>. I use [your pronouns] pronouns.</p>
-    </div>
-</body>
-</html>
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: 400;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Bold Job Market Text */
+strong {
+    font-weight: 600;
+}
