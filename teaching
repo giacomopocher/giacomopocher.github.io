@@ -10,8 +10,8 @@
     <div class="container">
         <h1>Teaching</h1>
         <nav>
-            <a href="index.html">Home</a> / 
-            <a href="research.html">Research</a> 
+            <a href="home">Home</a> / 
+            <a href="research">Research</a> 
         </nav>
 
         <section>
