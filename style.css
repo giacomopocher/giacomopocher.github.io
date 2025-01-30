@@ -11,24 +11,25 @@ body {
     line-height: 1.6;
 }
 
-/* Container */
+/* Container - Fully Centered */
 .container {
     max-width: 600px;
-    margin: auto;
+    margin: 0 auto;  /* Ensures full centering */
+    text-align: center; /* Center content inside */
 }
 
 /* Name (Header) - Centered */
 h1 {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 0.5px;
+    margin-bottom: 5px;
 }
 
 /* Navigation - Centered */
 nav {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -42,20 +43,21 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Profile Picture - Centered */
+/* Profile Picture - Fully Centered */
 .profile-pic {
     display: block;
-    width: 300px;
+    width: 300px; /* Adjust to your preference */
     height: auto;
-    margin: 20px auto;
+    margin: 20px auto; /* Centers horizontally */
 }
 
 /* Section Content - Left-Aligned */
 section {
     text-align: left;
-    font-size: 16px;
-    margin-left: 37px;
-    margin-top: 60px;
+    font-size: 18px;
+    margin: 30px auto; /* Centers the section within container */
+    padding: 0 20px; /* Prevents content from sticking too much to the edges */
+    max-width: 600px; /* Ensures the text doesn't stretch too much */
 }
 
 /* Links */
