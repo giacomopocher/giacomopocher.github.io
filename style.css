@@ -1,45 +1,48 @@
+/* Import Source Serif Pro (same as Sahil Chinoy's website) */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap');
+
 /* General styles */
 body {
-    font-family: "Inter", Arial, sans-serif;
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+    background-color: #f7f7f7;
+    color: #111;
     margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #222;
-    text-align: center;
+    padding: 40px;
+    line-height: 1.7;
 }
 
 /* Container */
 .container {
     max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
+    margin: 0 auto;
 }
 
 /* Header */
 header {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px;
 }
 
 /* Navigation */
 nav {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 nav a {
     text-decoration: none;
-    color: #0077cc;
-    margin: 0 10px;
-    font-size: 18px;
+    color: #111;
+    font-weight: 400;
+    margin-right: 15px;
 }
 
 nav a:hover {
@@ -49,38 +52,37 @@ nav a:hover {
 /* Sections */
 section {
     margin-bottom: 50px;
+    text-align: left;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
 /* Links */
 a {
-    color: #0077cc;
-    text-decoration: none;
+    color: #111;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-    .container {
-        padding: 10px;
+    body {
+        font-size: 18px;
+        padding: 20px;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     h2 {
         font-size: 22px;
-    }
-
-    p, nav a {
-        font-size: 16px;
     }
 }
