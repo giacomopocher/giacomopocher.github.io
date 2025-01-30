@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Giacomo Opocher</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleAbstract(id) {
+            var abstract = document.getElementById(id);
+            if (abstract.style.display === "none") {
+                abstract.style.display = "block";  // Show abstract
+            } else {
+                abstract.style.display = "none";  // Hide abstract
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Research</h1>
+        <nav>
+            <a href="index.html">Home</a> / 
+            <a href="teaching.html">Teaching</a> 
+        </nav>
+
+        <section>
+            <p><b>BallotBot: Can Chatbots Strengthen (Direct) Democracy?</b> with Elliott Ash (ETH) and Sergio Galletta (ETH), 
+                <i> Draft Available</i> 
+                <a href="#" onclick="toggleAbstract('abstract1'); return false;">Abstract</a>
+            </p>
+            <p id="abstract1" style="display: none;">
+                This study explores the potential for AI-powered chatbots to strengthen democracy by boosting political knowledge and engagement through better access to political information. We develop and evaluate BallotBot, an AI chatbot with access to official voter guide information from the November 2024 referendums in California. In a pre-registered three-wave survey experiment in the weeks around election day, participants (California voters) were randomly assigned to use either BallotBot or a traditional digital voter guide to answer questions about ballot initiatives. BallotBot access improved participants' ability to answer in-depth questions, reduced overconfidence, and fostered greater engagement with political information. It had no effect on self-reported turnout or the direction of voting.
+                <hr> <!-- Horizontal Line Added Here -->
+            </p>
+
+            <p><b>Synthetic Welfare Maximization</b>, <i> Working in Progress</i>
+                <hr> 
+            </p>
+
+            <p><b>Continuously Heterogeneous Treatment Effects in Regression Discontinuity Designs</b>, <i> Working in Progress</i><hr> </p>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* General styles */
+body {
+    font-family: "Inter", sans-serif;     
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #111;
+    margin: 50px;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Name (Header) - Centered */
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5px;
+}
+
+/* Navigation - Centered */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: red;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Picture - Centered */
+.profile-pic {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Section Content - Left-Aligned */
+section {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 37px;
+    margin-top: 60px;
+}
+
+/* Links */
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
