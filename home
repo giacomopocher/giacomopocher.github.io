@@ -11,7 +11,7 @@
         <h1>Giacomo Opocher</h1>
         <nav>
             <a href="research">Research</a> / 
-            <a href="teaching.html">Teaching</a> 
+            <a href="teaching">Teaching</a> 
         </nav>
 
         <img src="profile.jpg" alt="Your Name" class="profile-pic">
