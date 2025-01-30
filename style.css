@@ -54,7 +54,7 @@ nav a:hover {
 /* Section Content - Left-Aligned */
 section {
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     margin: 30px auto; /* Centers the section within container */
     padding: 0 20px; /* Prevents content from sticking too much to the edges */
     max-width: 600px; /* Ensures the text doesn't stretch too much */
