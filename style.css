@@ -34,7 +34,7 @@ nav {
 
 nav a {
     text-decoration: underline;
-    color: blue;
+    color: red;
     font-weight: 400;
     font-size: 17px;
 }
@@ -62,7 +62,7 @@ section {
 
 /* Links */
 a {
-    color: blue;
+    color: red;
     text-decoration: underline;
 }
 
