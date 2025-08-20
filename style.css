@@ -46,7 +46,7 @@ nav a:hover {
 /* Profile Picture - Fully Centered */
 .profile-pic {
     display: block;
-    width: 600px; /* Adjust to your preference */
+    width: 580px; /* Adjust to your preference */
     height: auto;
     margin: 20px auto; /* Centers horizontally */
 }
