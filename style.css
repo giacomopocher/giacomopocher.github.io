@@ -57,8 +57,8 @@ section {
     text-align: left; /* better for mobile readability */
     font-size: 16px;
     margin: 30px auto;
-    padding: 0 5vw; /* 5% of viewport width */
-    max-width: 600px;
+    padding: 0 20px; /* 5% of viewport width */
+    max-width: 800px;
 }
 
 /* Links */
@@ -84,7 +84,7 @@ a:hover {
     font-size: 16px; /* slightly smaller */
   }
   section {
-    padding: 0 1.5rem;
+    padding: 0 5px;
   }
 }
 
