@@ -53,11 +53,11 @@ nav a:hover {
 
 /* Section Content - Left-Aligned */
 section {
-    text-align: justify;
+    text-align: left; /* better for mobile readability */
     font-size: 16px;
-    margin: 30px auto; /* Centers the section within container */
-    padding: 0 20px; /* Prevents content from sticking too much to the edges */
-    max-width: 600px; /* Ensures the text doesn't stretch too much */
+    margin: 30px auto;
+    padding: 0 20px;
+    max-width: 600px;
 }
 
 /* Links */
@@ -72,7 +72,7 @@ a:hover {
 
 #abstract1 {
     display: none;
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
     max-width: 600px;
     margin: 10px auto;
