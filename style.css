@@ -50,7 +50,6 @@ nav a:hover {
     width: 50%;            /* Makes image 90% of the container width */
     max-width: 580px;      /* Prevents it from getting too large on big screens */
     height: auto;          /* Keeps the aspect ratio */
-    border-radius: 50%;    /* Optional: makes it circular */
     object-fit: cover;     /* Ensures it fills the frame cleanly */
     margin: 20px auto;     /* Centers horizontally and adds spacing */
 }
