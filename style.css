@@ -8,9 +8,12 @@ body {
     line-height: 1.6;
     background-color: #ffffff;
     color: #111;
-    margin: 50px;
-    line-height: 1.6;
+
+    /* Adaptive margins */
+    margin: 0 auto;                 /* Center page horizontally */
+    padding: 0 clamp(20px, 8vw, 60px); /* Adaptive side padding: grows/shrinks with screen width */
 }
+
 
 /* Container - Fully Centered */
 .container {
