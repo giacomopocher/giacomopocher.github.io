@@ -9,9 +9,9 @@
         function toggleAbstract(id) {
             var abstract = document.getElementById(id);
             if (abstract.style.display === "none") {
-                abstract.style.display = "block";  // Show abstract
+                abstract.style.display = "block";
             } else {
-                abstract.style.display = "none";  // Hide abstract
+                abstract.style.display = "none";
             }
         }
     </script>
@@ -24,36 +24,54 @@
             <a href="../teaching/">Teaching</a> 
         </nav>
 
-        <section>
-
-            <p><b>Policy Learning with Unobserved Heterogeneity</b> [<a href="https://drive.google.com/file/d/1TgjhuKfPFpKhruVQ9gSZJrdmKpAbloxF/view?usp=sharing" target="_blank">Draft</a>] [<a href="../Opocher_PLUH.pdf" target="_blank">Slides</a>] [<a href="#" onclick="toggleAbstract('abstract2'); return false;">Abstract</a>]
-            </p>
-            <p id="abstract2" style="display: none; text-align: justify;">
-                                Unobserved factors, such as innate ability or motivation, often drive individual responses to treatments, challenging the effectiveness of policies designed to maximize welfare. This paper studies the optimal allocation of treatments when their effects depend on characteristics that are not observable without error. First, using their raw observed values to learn optimal allocations increases welfare only if the variation in treatment effects they explain outweighs their estimation error. Second, shrinking the observed values toward their mean via empirical Bayes before the allocation problem mitigates this trade-off and increases welfare. Finally, a new class of rules weights the importance of the latent variable according to the welfare gain produced by its inclusion in the decision problem; it achieves the minimum distance from the welfare produced by the best, yet unfeasible, rule. In an empirical application in development economics, including a proxy for entrepreneurs' business skills in policy recommendations increases welfare by 6%, and halves the probability of generating welfare losses.
-             </p>
-
-            <p>Winner of Unicredit Young Economist <a href="https://cepr.org/events/economics-job-market-bootcamp-tuscany" target="_blank">Best Presentation Award</a>
+        <!-- ========== Working Papers Section ========== -->
+        <section id="working-papers">
+            <h2>Working Papers</h2>
+            <article>
+                <p>
+                    <b>Policy Learning with Unobserved Heterogeneity</b> 
+                    [<a href="https://drive.google.com/file/d/1TgjhuKfPFpKhruVQ9gSZJrdmKpAbloxF/view?usp=sharing" target="_blank">Draft</a>] 
+                    [<a href="../Opocher_PLUH.pdf" target="_blank">Slides</a>] 
+                    [<a href="#" onclick="toggleAbstract('abstract2'); return false;">Abstract</a>]
                 </p>
+                <p id="abstract2" style="display: none; text-align: justify;">
+                        Empirical research shows that individual responses to treatments vary along latent characteristics, such as innate ability or motivation. Therefore, a policymaker seeking to maximize social welfare may consider assigning treatments not only based on observed characteristics, but also on estimated latent traits. I characterize how the accuracy of these estimates affects policies' worst-case performance, deriving new regret bounds for policies that include or exclude them. I then study how a policymaker can mitigate this effect through better estimates (via empirical Bayes, cross-validation, or leveraging heterogeneity in the estimation error across units), or better choices (by collecting more data before solving the decision problem). In an empirical application in development economics, I show that including a proxy for entrepreneurs' business skills in policy recommendations increases welfare by $6\%$, and halves the probability of generating welfare losses.
+                </p>
+                <p>Winner of Unicredit Young Economist 
+                    <a href="https://cepr.org/events/economics-job-market-bootcamp-tuscany" target="_blank">Best Presentation Award</a>
+                </p>
+            </article>
+
+            <hr>
             
-            <hr> <!-- Horizontal Line Added Here -->
-            
-            <p><b>Synthetic Welfare Maximization</b>, <i> Work in Progress</i></p>
-
-            <hr> <!-- Horizontal Line Added Here -->
-
-             <p><b>BallotBot: Can AI Chatbots Lower Voter-Information Barriers?</b> with Elliott Ash (ETH) and Sergio Galletta (ETH) 
-                [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168217" target="_blank">WP</a>] 
-                [<a href="https://cepr.org/voxeu/columns/how-ai-chatbots-can-improve-voter-information" target="_blank">VoxEU Column</a>] 
-                [<a href="#" onclick="toggleAbstract('abstract1'); return false;">Abstract</a>]
-            </p>
-            <p id="abstract1" style="display: none; text-align: justify;">
-                                This study examines the potential of AI-powered chatbots to increase engagement with political information. We develop and evaluate BallotBot, an AI chatbot with access to official voter guide information from the November 2024 referendums in California. In a pre-registered three-wave survey experiment in the weeks around election day, participants (California voters) were randomly assigned to use either BallotBot or a traditional digital voter guide to answer questions about ballot initiatives. We find that BallotBot access lowered the perceived cost of acquiring information for less-informed participants, fostered greater engagement with political information, while improving participants' ability to correctly answer in-depth questions about ballot measures.
-            </p>
-
-            <p>Status: <i>Submitted</i></p>
-
-            <hr> <!-- Horizontal Line Added Here -->
+            <article>
+                <p>
+                    <b>BallotBot: Can AI Chatbots Lower Voter-Information Barriers?</b> 
+                    with Elliott Ash (ETH) and Sergio Galletta (ETH) 
+                    [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168217" target="_blank">WP</a>] 
+                    [<a href="https://cepr.org/voxeu/columns/how-ai-chatbots-can-improve-voter-information" target="_blank">VoxEU Column</a>] 
+                    [<a href="#" onclick="toggleAbstract('abstract1'); return false;">Abstract</a>]
+                </p>
+                <p id="abstract1" style="display: none; text-align: justify;">
+                    This study examines the potential of AI-powered chatbots to increase engagement with political information. We develop and evaluate BallotBot, an AI chatbot with access to official voter guide information from the November 2024 referendums in California. In a pre-registered three-wave survey experiment in the weeks around election day, participants (California voters) were randomly assigned to use either BallotBot or a traditional digital voter guide to answer questions about ballot initiatives. We find that BallotBot access lowered the perceived cost of acquiring information for less-informed participants, fostered greater engagement with political information, while improving participants' ability to correctly answer in-depth questions about ballot measures.
+                </p>
+                <p>Status: <i>Submitted</i></p>
+            </article>
         </section>
+
+        <!-- ========== Work in Progress Section ========== -->
+        <section id="work-in-progress">
+            <h2>Work in Progress</h2>
+
+            <article>
+                <p><b>Synthetic Welfare Maximization</b> </p>
+            </article>
+            <hr>
+            <article>
+                <p><b>Stable Policy Learning</b> with Rahul Singh </p>
+            </article>
+        </section>
+
     </div>
 </body>
 </html>
